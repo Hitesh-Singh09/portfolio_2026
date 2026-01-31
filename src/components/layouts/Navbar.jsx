@@ -4,11 +4,11 @@ import { Button } from "@/components/ui/button";
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   // Load saved theme
   useEffect(() => {
-    const saved = localStorage.getItem("theme") || "light";
+    const saved = localStorage.getItem("theme") || "dark";
     setTheme(saved);
     document.documentElement.classList.toggle("dark", saved === "dark");
   }, []);

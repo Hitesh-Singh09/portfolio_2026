@@ -41,24 +41,24 @@ export default function Contact() {
         </motion.h2>
 
         {/* Big Cards/Buttons */}
-        <div className="flex justify-center items-center max-w-3xl mx-auto">
+        <div className="flex justify-between items-center max-w-3xl mx-auto">
 
           {/* Discord Card */}
-          {/* <motion.div
+          <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
             className="flex flex-col items-center"
           >
-            <h3 className="text-4xl font-semibold text-white mb-2">Discord</h3>
-            <p className="text-slate-500 mb-8">hitesh</p>
+            <h3 className="text-4xl font-semibold text-white mb-2">Mail</h3>
+            <p className="text-slate-500 mb-8">hiteshsingh922@gmail.com</p>
             <Button
               className="rounded-full px-8 py-6 text-base font-semibold bg-gradient-to-r from-amber-200 to-amber-100 text-black shadow-[0_0_20px_rgba(253,230,138,0.4)] hover:scale-105 transition-transform"
             >
-              Hit me up on Discord
+              Contact Me on Mail
             </Button>
-          </motion.div> */}
+          </motion.div>
 
           {/* LinkedIn Card */}
           <motion.div
